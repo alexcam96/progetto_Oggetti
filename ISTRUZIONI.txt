@@ -1,0 +1,9 @@
+ 
+1) copiare la cartella "rubik" nella cartella dei progetto di visual studio
+
+2) aprire il progetto con visual studio, selezionando il file rubik\rubik.sln
+
+3) copiare nella propria cartella Documenti la cartella OpenGL
+
+
+Ci sono ancora degli errori... 

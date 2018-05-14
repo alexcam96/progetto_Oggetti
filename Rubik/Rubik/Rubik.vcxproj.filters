@@ -1,0 +1,788 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="opengl-rubix-cube\include\CheckError.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_common.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_exponential.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_geometric.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_integer.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_matrix.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_noise.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_packing.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_trigonometric.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_vector_relational.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\hint.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\intrinsic_common.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\intrinsic_exponential.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\intrinsic_geometric.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\intrinsic_matrix.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\intrinsic_trigonometric.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\intrinsic_vector_relational.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\setup.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_float.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_gentype.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_half.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_int.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat2x2.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat2x3.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat2x4.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat3x2.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat3x3.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat3x4.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat4x2.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat4x3.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat4x4.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_size.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_vec.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_vec1.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_vec2.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_vec3.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_vec4.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\_detail.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\_fixes.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\_swizzle.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\_swizzle_func.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\_vectorize.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\ext.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\glm.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\constants.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\epsilon.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\half_float.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\matrix_access.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\matrix_integer.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\matrix_inverse.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\matrix_transform.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\noise.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\quaternion.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\random.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\reciprocal.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\swizzle.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\type_precision.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\type_ptr.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\ulp.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\associated_min_max.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\bit.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\closest_point.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\color_cast.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\color_space.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\color_space_YCoCg.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\compatibility.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\component_wise.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\constants.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\epsilon.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\euler_angles.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\extend.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\extented_min_max.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\fast_exponential.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\fast_square_root.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\fast_trigonometry.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\gradient_paint.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\handed_coordinate_space.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\inertia.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\integer.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\intersect.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\int_10_10_10_2.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\log_base.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\matrix_cross_product.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\matrix_interpolation.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\matrix_major_storage.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\matrix_operation.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\matrix_query.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\mixed_product.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\multiple.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\noise.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\norm.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\normal.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\normalize_dot.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\number_precision.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\ocl_type.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\optimum_pow.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\orthonormalize.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\perpendicular.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\polar_coordinates.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\projection.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\quaternion.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\random.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\raw_data.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\reciprocal.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\rotate_vector.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\simd_mat4.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\simd_vec4.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\spline.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\std_based_type.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\string_cast.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\transform.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\transform2.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\ulp.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\unsigned_int.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\vec1.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\vector_access.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\vector_angle.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\vector_query.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\verbose_operator.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\wrap.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\glm\virtrev\xstream.hpp">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\Camera.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\Entity.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\Game.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\Internal.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\Light.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\MeshEntity.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\OpenGL.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\Face.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\Material.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\Mesh.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\MtlLoader.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\ObjLoader.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\ResMgr.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\Resource.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\samples\meshviewer\MeshViewer.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\samples\rubix\RubixCube.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\samples\rubix\SmallCube.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\include\Angel.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="opengl-rubix-cube\include\glm\core\dummy.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\game\Camera.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\game\Entity.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\game\Game.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\game\InitShader.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\game\resource\Face.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\game\resource\MtlLoader.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\game\resource\ObjLoader.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\game\resource\ResMgr.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\samples\meshviewer\MeshViewer.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\samples\rubix\RubixCube.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\samples\rubix\SmallCube.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\Main.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="opengl-rubix-cube\include\glm\core\func_common.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\func_exponential.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\func_geometric.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\func_integer.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\func_matrix.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\func_noise.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\func_packing.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\func_trigonometric.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\func_vector_relational.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\intrinsic_common.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\intrinsic_exponential.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\intrinsic_geometric.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\intrinsic_matrix.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\intrinsic_trigonometric.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\intrinsic_vector_relational.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_gentype.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_half.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat2x2.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat2x3.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat2x4.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat3x2.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat3x3.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat3x4.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat4x2.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat4x3.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat4x4.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_vec.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_vec1.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_vec2.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_vec3.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\core\type_vec4.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtc\constants.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtc\epsilon.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtc\half_float.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtc\matrix_access.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtc\matrix_inverse.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtc\matrix_transform.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtc\noise.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtc\quaternion.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtc\random.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtc\reciprocal.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtc\swizzle.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtc\type_precision.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtc\type_ptr.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtc\ulp.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\associated_min_max.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\bit.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\closest_point.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\color_cast.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\color_space.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\color_space_YCoCg.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\compatibility.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\component_wise.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\euler_angles.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\extend.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\extented_min_max.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\fast_exponential.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\fast_square_root.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\fast_trigonometry.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\gradient_paint.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\handed_coordinate_space.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\inertia.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\integer.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\intersect.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\int_10_10_10_2.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\log_base.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\matrix_cross_product.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\matrix_interpolation.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\matrix_major_storage.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\matrix_operation.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\matrix_query.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\mixed_product.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\multiple.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\norm.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\normal.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\normalize_dot.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\number_precision.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\ocl_type.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\optimum_pow.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\orthonormalize.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\perpendicular.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\polar_coordinates.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\projection.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\quaternion.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\raw_data.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\rotate_vector.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\simd_mat4.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\simd_vec4.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\spline.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\std_based_type.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\string_cast.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\transform.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\transform2.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\unsigned_int.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\vec1.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\vector_access.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\vector_angle.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\vector_query.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\verbose_operator.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="opengl-rubix-cube\include\glm\gtx\wrap.inl">
+      <Filter>File di risorse</Filter>
+    </None>
+  </ItemGroup>
+</Project>

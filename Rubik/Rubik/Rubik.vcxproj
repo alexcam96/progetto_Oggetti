@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="opengl-rubix-cube\include\Angel.h" />
+    <ClInclude Include="opengl-rubix-cube\include\CheckError.h" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_common.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_exponential.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_geometric.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_integer.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_matrix.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_noise.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_packing.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_trigonometric.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\func_vector_relational.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\hint.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\intrinsic_common.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\intrinsic_exponential.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\intrinsic_geometric.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\intrinsic_matrix.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\intrinsic_trigonometric.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\intrinsic_vector_relational.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\setup.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_float.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_gentype.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_half.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_int.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat2x2.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat2x3.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat2x4.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat3x2.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat3x3.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat3x4.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat4x2.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat4x3.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_mat4x4.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_size.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_vec.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_vec1.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_vec2.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_vec3.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\type_vec4.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\_detail.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\_fixes.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\_swizzle.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\_swizzle_func.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\core\_vectorize.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\ext.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\glm.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\constants.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\epsilon.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\half_float.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\matrix_access.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\matrix_integer.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\matrix_inverse.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\matrix_transform.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\noise.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\quaternion.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\random.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\reciprocal.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\swizzle.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\type_precision.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\type_ptr.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtc\ulp.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\associated_min_max.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\bit.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\closest_point.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\color_cast.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\color_space.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\color_space_YCoCg.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\compatibility.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\component_wise.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\constants.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\epsilon.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\euler_angles.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\extend.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\extented_min_max.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\fast_exponential.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\fast_square_root.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\fast_trigonometry.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\gradient_paint.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\handed_coordinate_space.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\inertia.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\integer.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\intersect.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\int_10_10_10_2.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\log_base.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\matrix_cross_product.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\matrix_interpolation.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\matrix_major_storage.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\matrix_operation.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\matrix_query.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\mixed_product.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\multiple.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\noise.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\norm.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\normal.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\normalize_dot.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\number_precision.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\ocl_type.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\optimum_pow.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\orthonormalize.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\perpendicular.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\polar_coordinates.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\projection.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\quaternion.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\random.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\raw_data.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\reciprocal.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\rotate_vector.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\simd_mat4.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\simd_vec4.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\spline.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\std_based_type.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\string_cast.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\transform.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\transform2.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\ulp.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\unsigned_int.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\vec1.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\vector_access.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\vector_angle.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\vector_query.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\verbose_operator.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\gtx\wrap.hpp" />
+    <ClInclude Include="opengl-rubix-cube\include\glm\virtrev\xstream.hpp" />
+    <ClInclude Include="opengl-rubix-cube\src\game\Camera.h" />
+    <ClInclude Include="opengl-rubix-cube\src\game\Entity.h" />
+    <ClInclude Include="opengl-rubix-cube\src\game\Game.h" />
+    <ClInclude Include="opengl-rubix-cube\src\game\Internal.h" />
+    <ClInclude Include="opengl-rubix-cube\src\game\Light.h" />
+    <ClInclude Include="opengl-rubix-cube\src\game\MeshEntity.h" />
+    <ClInclude Include="opengl-rubix-cube\src\game\OpenGL.h" />
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\Face.h" />
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\Material.h" />
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\Mesh.h" />
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\MtlLoader.h" />
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\ObjLoader.h" />
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\ResMgr.h" />
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\Resource.h" />
+    <ClInclude Include="opengl-rubix-cube\src\samples\meshviewer\MeshViewer.h" />
+    <ClInclude Include="opengl-rubix-cube\src\samples\rubix\RubixCube.h" />
+    <ClInclude Include="opengl-rubix-cube\src\samples\rubix\SmallCube.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="opengl-rubix-cube\include\glm\core\dummy.cpp" />
+    <ClCompile Include="opengl-rubix-cube\src\game\Camera.cpp" />
+    <ClCompile Include="opengl-rubix-cube\src\game\Entity.cpp" />
+    <ClCompile Include="opengl-rubix-cube\src\game\Game.cpp" />
+    <ClCompile Include="opengl-rubix-cube\src\game\InitShader.cpp" />
+    <ClCompile Include="opengl-rubix-cube\src\game\resource\Face.cpp" />
+    <ClCompile Include="opengl-rubix-cube\src\game\resource\MtlLoader.cpp" />
+    <ClCompile Include="opengl-rubix-cube\src\game\resource\ObjLoader.cpp" />
+    <ClCompile Include="opengl-rubix-cube\src\game\resource\ResMgr.cpp" />
+    <ClCompile Include="opengl-rubix-cube\src\Main.cpp" />
+    <ClCompile Include="opengl-rubix-cube\src\samples\meshviewer\MeshViewer.cpp" />
+    <ClCompile Include="opengl-rubix-cube\src\samples\rubix\RubixCube.cpp" />
+    <ClCompile Include="opengl-rubix-cube\src\samples\rubix\SmallCube.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="opengl-rubix-cube\include\glm\core\func_common.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\func_exponential.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\func_geometric.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\func_integer.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\func_matrix.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\func_noise.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\func_packing.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\func_trigonometric.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\func_vector_relational.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\intrinsic_common.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\intrinsic_exponential.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\intrinsic_geometric.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\intrinsic_matrix.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\intrinsic_trigonometric.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\intrinsic_vector_relational.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_gentype.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_half.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat2x2.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat2x3.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat2x4.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat3x2.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat3x3.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat3x4.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat4x2.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat4x3.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_mat4x4.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_vec.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_vec1.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_vec2.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_vec3.inl" />
+    <None Include="opengl-rubix-cube\include\glm\core\type_vec4.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtc\constants.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtc\epsilon.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtc\half_float.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtc\matrix_access.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtc\matrix_inverse.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtc\matrix_transform.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtc\noise.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtc\quaternion.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtc\random.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtc\reciprocal.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtc\swizzle.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtc\type_precision.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtc\type_ptr.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtc\ulp.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\associated_min_max.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\bit.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\closest_point.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\color_cast.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\color_space.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\color_space_YCoCg.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\compatibility.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\component_wise.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\euler_angles.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\extend.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\extented_min_max.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\fast_exponential.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\fast_square_root.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\fast_trigonometry.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\gradient_paint.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\handed_coordinate_space.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\inertia.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\integer.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\intersect.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\int_10_10_10_2.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\log_base.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\matrix_cross_product.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\matrix_interpolation.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\matrix_major_storage.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\matrix_operation.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\matrix_query.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\mixed_product.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\multiple.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\norm.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\normal.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\normalize_dot.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\number_precision.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\ocl_type.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\optimum_pow.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\orthonormalize.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\perpendicular.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\polar_coordinates.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\projection.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\quaternion.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\raw_data.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\rotate_vector.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\simd_mat4.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\simd_vec4.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\spline.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\std_based_type.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\string_cast.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\transform.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\transform2.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\unsigned_int.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\vec1.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\vector_access.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\vector_angle.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\vector_query.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\verbose_operator.inl" />
+    <None Include="opengl-rubix-cube\include\glm\gtx\wrap.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{8C3625F0-739E-4ADA-A5E9-A4C0934CF64E}</ProjectGuid>
+    <RootNamespace>Rubik</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\Alex\source\repos\Rubik\Rubik\opengl-rubix-cube\include;C:\Users\Alex\Documents\OpenGL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Alex\Documents\OpenGL\library;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Alex\source\repos\Rubik\Rubik\opengl-rubix-cube\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;freeglut.lib;glu32.lib;opengl32.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
