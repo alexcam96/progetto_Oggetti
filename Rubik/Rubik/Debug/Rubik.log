@@ -1,5 +1,4 @@
-﻿Game.obj : error LNK2019: riferimento al simbolo esterno __imp__glewInit@0 non risolto nella funzione "void __cdecl game::init(int,char * *,int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?init@game@@YAXHPAPADHHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Game.obj : error LNK2019: riferimento al simbolo esterno __imp__glutInitWindowSize@8 non risolto nella funzione "void __cdecl game::init(int,char * *,int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?init@game@@YAXHPAPADHHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+﻿Game.obj : error LNK2019: riferimento al simbolo esterno __imp__glutInitWindowSize@8 non risolto nella funzione "void __cdecl game::init(int,char * *,int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?init@game@@YAXHPAPADHHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
 Game.obj : error LNK2019: riferimento al simbolo esterno __imp__glutInitDisplayMode@4 non risolto nella funzione "void __cdecl game::init(int,char * *,int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?init@game@@YAXHPAPADHHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
 Game.obj : error LNK2019: riferimento al simbolo esterno __imp__glutMainLoop@0 non risolto nella funzione "void __cdecl game::start(int)" (?start@game@@YAXH@Z)
 Game.obj : error LNK2019: riferimento al simbolo esterno __imp__glutPostRedisplay@0 non risolto nella funzione "void __cdecl game::runMainLoop(int)" (?runMainLoop@game@@YAXH@Z)
@@ -13,35 +12,7 @@ Game.obj : error LNK2019: riferimento al simbolo esterno __imp__glutPassiveMotio
 Game.obj : error LNK2019: riferimento al simbolo esterno __imp__glutKeyboardUpFunc@4 non risolto nella funzione "void __cdecl game::start(int)" (?start@game@@YAXH@Z)
 Game.obj : error LNK2019: riferimento al simbolo esterno __imp____glutInitWithExit@12 non risolto nella funzione _glutInit_ATEXIT_HACK@8
 Game.obj : error LNK2019: riferimento al simbolo esterno __imp____glutCreateWindowWithExit@8 non risolto nella funzione _glutCreateWindow_ATEXIT_HACK@4
-Game.obj : error LNK2001: simbolo esterno __imp____glewGetUniformLocation non risolto
-Game.obj : error LNK2001: simbolo esterno __imp____glewUniform1f non risolto
-Game.obj : error LNK2001: simbolo esterno __imp____glewUniform3f non risolto
-Game.obj : error LNK2001: simbolo esterno __imp____glewUniform4f non risolto
-Game.obj : error LNK2001: simbolo esterno __imp____glewUniformMatrix4fv non risolto
-Game.obj : error LNK2001: simbolo esterno __imp____glewUseProgram non risolto
-InitShader.obj : error LNK2001: simbolo esterno __imp____glewUseProgram non risolto
-InitShader.obj : error LNK2001: simbolo esterno __imp____glewAttachShader non risolto
-InitShader.obj : error LNK2001: simbolo esterno __imp____glewCompileShader non risolto
-InitShader.obj : error LNK2001: simbolo esterno __imp____glewCreateProgram non risolto
-InitShader.obj : error LNK2001: simbolo esterno __imp____glewCreateShader non risolto
-InitShader.obj : error LNK2001: simbolo esterno __imp____glewGetProgramInfoLog non risolto
-InitShader.obj : error LNK2001: simbolo esterno __imp____glewGetProgramiv non risolto
-InitShader.obj : error LNK2001: simbolo esterno __imp____glewGetShaderInfoLog non risolto
-InitShader.obj : error LNK2001: simbolo esterno __imp____glewGetShaderiv non risolto
-InitShader.obj : error LNK2001: simbolo esterno __imp____glewLinkProgram non risolto
-InitShader.obj : error LNK2001: simbolo esterno __imp____glewShaderSource non risolto
-Face.obj : error LNK2001: simbolo esterno __imp____glewBindBuffer non risolto
-Face.obj : error LNK2001: simbolo esterno __imp____glewBufferData non risolto
-Face.obj : error LNK2001: simbolo esterno __imp____glewDeleteBuffers non risolto
-Face.obj : error LNK2001: simbolo esterno __imp____glewGenBuffers non risolto
-Face.obj : error LNK2001: simbolo esterno __imp____glewDisableVertexAttribArray non risolto
-Face.obj : error LNK2001: simbolo esterno __imp____glewEnableVertexAttribArray non risolto
-Face.obj : error LNK2001: simbolo esterno __imp____glewVertexAttribPointer non risolto
-Face.obj : error LNK2001: simbolo esterno __imp____glewBindVertexArray non risolto
-Face.obj : error LNK2001: simbolo esterno __imp____glewDeleteVertexArrays non risolto
-Face.obj : error LNK2001: simbolo esterno __imp____glewGenVertexArrays non risolto
 C:\Users\Alex\Documents\OpenGL\library\glfw3.lib : warning LNK4272: il tipo 'x64' del computer della libreria è in conflitto con il tipo 'x86' del computer di destinazione
 C:\Users\Alex\Documents\OpenGL\library\freeglut.lib : warning LNK4272: il tipo 'x64' del computer della libreria è in conflitto con il tipo 'x86' del computer di destinazione
-C:\Users\Alex\Documents\OpenGL\library\glew32.lib : warning LNK4272: il tipo 'x64' del computer della libreria è in conflitto con il tipo 'x86' del computer di destinazione
 C:\Users\Alex\Documents\OpenGL\library\freeglutd.lib : warning LNK4272: il tipo 'x64' del computer della libreria è in conflitto con il tipo 'x86' del computer di destinazione
-C:\Users\Alex\source\repos\Rubik\Debug\Rubik.exe : fatal error LNK1120: 41 esterni non risolti
+C:\Users\Alex\source\repos\Rubik\Debug\Rubik.exe : fatal error LNK1120: 14 esterni non risolti

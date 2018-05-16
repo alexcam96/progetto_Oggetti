@@ -479,6 +479,9 @@
     <ClCompile Include="opengl-rubix-cube\src\Main.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\glad\src\glad.c">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="opengl-rubix-cube\include\glm\core\func_common.inl">

@@ -8,6 +8,7 @@
 #include <map>
 #include <set>
 
+
 #include "../../include/Angel.h"
 
 #include "../../include/glm/glm.hpp"
@@ -24,6 +25,7 @@
 #include "resource/Mesh.h"
 #include "MeshEntity.h"
 #include "resource/ResMgr.h"
+
 
 std::ostream &operator<<(std::ostream &out, const glm::vec2 &vec);
 std::ostream &operator<<(std::ostream &out, const glm::vec3 &vec);

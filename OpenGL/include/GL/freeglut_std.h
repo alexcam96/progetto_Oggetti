@@ -637,7 +637,7 @@ FGAPI int FGAPIENTRY __glutCreateMenuWithExit(void (* func)(int), void (__cdecl 
 static void FGAPIENTRY FGUNUSED glutInit_ATEXIT_HACK(int *argcp, char **argv) { __glutInitWithExit(argcp, argv, exit); }
 #define glutInit glutInit_ATEXIT_HACK
 static int FGAPIENTRY FGUNUSED glutCreateWindow_ATEXIT_HACK(const char *title) { return __glutCreateWindowWithExit(title, exit); }
-#define glutCreateWindow glutCreateWindow_ATEXIT_HACK
+ #define glutCreateWindow glutCreateWindow_ATEXIT_HACK
 static int FGAPIENTRY FGUNUSED glutCreateMenu_ATEXIT_HACK(void (* func)(int)) { return __glutCreateMenuWithExit(func, exit); }
 #define glutCreateMenu glutCreateMenu_ATEXIT_HACK
 #endif

@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Rubik",
-    "\\Rubik\\opengl-rubix-cube"
+    "\\Rubik\\opengl-rubix-cube",
+    "\\Rubik\\opengl-rubix-cube\\src\\game",
+    "\\Rubik\\opengl-rubix-cube\\src\\game\\resource"
   ],
-  "SelectedNode": "\\Rubik\\opengl-rubix-cube\\src",
+  "SelectedNode": "\\Rubik",
   "PreviewInSolutionExplorer": false
 }

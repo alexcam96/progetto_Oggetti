@@ -162,6 +162,7 @@
     <ClInclude Include="opengl-rubix-cube\src\samples\rubix\SmallCube.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Downloads\glad\src\glad.c" />
     <ClCompile Include="opengl-rubix-cube\include\glm\core\dummy.cpp" />
     <ClCompile Include="opengl-rubix-cube\src\game\Camera.cpp" />
     <ClCompile Include="opengl-rubix-cube\src\game\Entity.cpp" />
@@ -334,6 +335,10 @@
     <IncludePath>C:\Users\Alex\source\repos\Rubik\Rubik\opengl-rubix-cube\include;C:\Users\Alex\Documents\OpenGL\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\Alex\Documents\OpenGL\library;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\Alex\source\repos\Rubik\Rubik\opengl-rubix-cube\include;C:\Users\Alex\Documents\OpenGL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Alex\Documents\OpenGL\library;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -352,7 +357,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Alex\source\repos\Rubik\Rubik\opengl-rubix-cube\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;freeglut.lib;glu32.lib;opengl32.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
