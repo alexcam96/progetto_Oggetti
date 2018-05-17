@@ -8,3 +8,6 @@
 4) configurare il progetto in visual studio come nelle immagini
 
 Ci sono ancora degli errori... 
+
+
+ADesso ho fatto una modifica
