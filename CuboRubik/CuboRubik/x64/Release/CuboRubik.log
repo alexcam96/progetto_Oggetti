@@ -1,12 +1,1 @@
-﻿  Game.cpp
-c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\include\angel.h(65): warning C4305: 'inizializzazione': troncamento da 'double' a 'GLfloat'
-c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\game\entity.h(26): warning C4267: 'return': conversione da 'size_t' a 'int'. Possibile perdita di dati.
-c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\game\game.cpp(184): warning C4244: '=': conversione da 'GLint' a 'float'. Possibile perdita di dati.
-c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\game\game.cpp(185): warning C4244: '=': conversione da 'GLint' a 'float'. Possibile perdita di dati.
-c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\game\game.cpp(262): warning C4244: 'argomento': conversione da 'double' a 'unsigned int'. Possibile perdita di dati.
-  Generazione codice in corso...
-  2 of 1131 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Generazione codice terminata
-  CuboRubik.vcxproj -> C:\Users\Alex\source\repos\CuboRubik\x64\Release\CuboRubik.exe
+﻿  CuboRubik.vcxproj -> C:\Users\Alex\source\repos\CuboRubik\x64\Release\CuboRubik.exe
