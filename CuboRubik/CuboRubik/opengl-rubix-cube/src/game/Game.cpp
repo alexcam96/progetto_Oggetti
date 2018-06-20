@@ -279,6 +279,7 @@ void game::handbook() {
 	std::cout << "**** Premendo il tasto P il cubo viene posizionato per essere risolto con l' algoritmo    ****\n";
 	std::cout << "**** Premendo il tasto R il cubo viene risolto tramite l' algoritmo                       ****\n";
 	std::cout << "**** Premendo il tasto S il cubo viene mischiato in modo casuale                          ****\n";
+	std::cout << "**** Premendo il tasto . posso interrompere l'istruzione corrente                         ****\n";
 }
 
 };

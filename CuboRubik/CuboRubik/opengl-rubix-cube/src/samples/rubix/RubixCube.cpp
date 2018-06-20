@@ -195,7 +195,7 @@ void RubixCube::shuffle() {									//Funzione shuffle
 	int j{ (rand() % 3) - 1 };
 
 	select(i, j);
-	select(i, j);
+	spin(90);
 
 	game::MeshEntity::update();
 }

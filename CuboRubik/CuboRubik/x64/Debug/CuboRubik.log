@@ -1,2 +1,21 @@
-﻿  Attempt.cpp
+﻿  RubixCube.cpp
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\include\angel.h(65): warning C4305: 'inizializzazione': troncamento da 'double' a 'GLfloat'
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\game\entity.h(26): warning C4267: 'return': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(45): warning C4244: 'argomento': conversione da 'int' a 'GLfloat'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(47): warning C4244: 'argomento': conversione da 'int' a 'GLfloat'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(50): warning C4244: 'argomento': conversione da 'int' a 'GLfloat'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(52): warning C4244: 'argomento': conversione da 'int' a 'GLfloat'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(55): warning C4244: 'argomento': conversione da 'int' a 'GLfloat'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(57): warning C4244: 'argomento': conversione da 'int' a 'GLfloat'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(161): warning C4244: 'argomento': conversione da 'GLfloat' a 'int'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(164): warning C4244: 'argomento': conversione da 'GLfloat' a 'int'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(170): warning C4244: 'argomento': conversione da 'GLfloat' a 'int'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(173): warning C4244: 'argomento': conversione da 'GLfloat' a 'int'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(197): warning C4244: 'argomento': conversione da 'int' a 'GLfloat'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(213): warning C4244: 'argomento': conversione da 'int' a 'GLfloat'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(214): warning C4244: 'argomento': conversione da 'const int' a 'GLfloat'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(267): warning C4244: 'argomento': conversione da 'int' a 'GLfloat'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(268): warning C4244: 'argomento': conversione da 'int' a 'GLfloat'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(277): warning C4244: 'argomento': conversione da 'int' a 'GLfloat'. Possibile perdita di dati.
+c:\users\alex\source\repos\cuborubik\cuborubik\opengl-rubix-cube\src\samples\rubix\rubixcube.cpp(278): warning C4244: 'argomento': conversione da 'int' a 'GLfloat'. Possibile perdita di dati.
   CuboRubik.vcxproj -> C:\Users\Alex\source\repos\CuboRubik\x64\Debug\CuboRubik.exe
