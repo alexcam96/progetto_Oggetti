@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="opengl-rubix-cube\src\game\Camera.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\game\Entity.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\game\Game.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\game\InitShader.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\game\resource\Face.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\game\resource\MtlLoader.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\game\resource\ObjLoader.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\game\resource\ResMgr.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\Main.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\samples\meshviewer\MeshViewer.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\samples\rubix\RubixCube.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl-rubix-cube\src\samples\rubix\SmallCube.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="Attempt.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="opengl-rubix-cube\src\game\Camera.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\Entity.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\Face.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\Game.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\Light.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\Internal.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\Material.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\Mesh.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\MeshEntity.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\samples\meshviewer\MeshViewer.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\MtlLoader.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\ObjLoader.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\OpenGL.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\ResMgr.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\game\resource\Resource.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\samples\rubix\RubixCube.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl-rubix-cube\src\samples\rubix\SmallCube.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="Attempt.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

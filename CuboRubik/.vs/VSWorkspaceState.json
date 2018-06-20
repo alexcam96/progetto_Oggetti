@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CuboRubik",
+    "\\CuboRubik\\opengl-rubix-cube",
+    "\\CuboRubik\\opengl-rubix-cube\\src",
+    "\\CuboRubik\\opengl-rubix-cube\\src\\samples",
+    "\\CuboRubik\\opengl-rubix-cube\\src\\samples\\rubix"
+  ],
+  "SelectedNode": "\\CuboRubik\\opengl-rubix-cube\\src\\samples\\rubix\\RubixCube.cpp",
+  "PreviewInSolutionExplorer": false
+}

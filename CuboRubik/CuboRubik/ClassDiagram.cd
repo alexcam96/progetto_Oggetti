@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Attempt">
+    <Position X="14.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAEAABACAAAAAAAAAAAAAAAIAAAIkQAAAgABgAA=</HashCode>
+      <FileName>Attempt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshViewer">
+    <Position X="7.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAgABAAAAAAAAIAAAAAAAIEAAAAAAABQAAEBhA=</HashCode>
+      <FileName>opengl-rubix-cube\src\samples\meshviewer\MeshViewer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubixCube">
+    <Position X="10" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAEAAAAAABAAQgABAgEAAAAAKAABgKMABAgAEAAA=</HashCode>
+      <FileName>opengl-rubix-cube\src\samples\rubix\RubixCube.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmallCube">
+    <Position X="12" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAIAAIAAAQAAAgAUDAA=</HashCode>
+      <FileName>opengl-rubix-cube\src\samples\rubix\SmallCube.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CubeFace">
+    <Position X="5.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACBAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>opengl-rubix-cube\src\samples\rubix\SmallCube.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game::Camera">
+    <Position X="3.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAgAAAAAAACQABAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>opengl-rubix-cube\src\game\Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game::Entity">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAgAAAAAAAgAQAABQQBQBKGSAEggAgGBIAAAAUBAI=</HashCode>
+      <FileName>opengl-rubix-cube\src\game\Entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game::Material">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAQAAAAEAAAAAAAAAAAAAAAQAAAAkAAAAAAACAA=</HashCode>
+      <FileName>opengl-rubix-cube\src\game\resource\Material.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game::Light">
+    <Position X="1.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAgAAAgAAAAAACAAAAAAgIAAAABgAAAAgAAAABAAAA=</HashCode>
+      <FileName>opengl-rubix-cube\src\game\Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game::MeshEntity">
+    <Position X="8.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAACAAAAAAIAAAAAAAAAAABAAgASAAAAAAQEAA=</HashCode>
+      <FileName>opengl-rubix-cube\src\game\MeshEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game::Face">
+    <Position X="16.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAJAACAQAAAACQAAA=</HashCode>
+      <FileName>opengl-rubix-cube\src\game\resource\Face.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game::Mesh">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAEAAAACAAAAAAAAAAAAAAAAAQAAAAAQAAA=</HashCode>
+      <FileName>opengl-rubix-cube\src\game\resource\Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game::Resource">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAIAAAEAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>opengl-rubix-cube\src\game\resource\Resource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
